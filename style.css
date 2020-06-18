@@ -1,0 +1,52 @@
+:root {
+  --main-color: #150437;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(to right, rgba(255, 0, 0, 0), #e91e63); */
+  background-color: var(--main-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  overflow: auto;
+}
+.lineh1 {
+  line-height: 1rem;
+}
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  overflow: auto;
+  border: 1px solid white;
+  background-color: white;
+  padding: 1rem;
+  line-height: 2rem;
+}
+.form-group > label {
+  display: block;
+}
+.form-group > input:focus {
+  border-color: #e91e63;
+}
+.form-group > input {
+  padding: 0.4rem;
+  width: 100%;
+}
+.container h2,
+.container p {
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--main-color);
+  padding: 0.8rem;
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
